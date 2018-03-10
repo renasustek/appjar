@@ -1,4 +1,3 @@
-
 def press(button):
     if button == "Cancel":
         app.stop()
@@ -8,9 +7,10 @@ def press(button):
         print("These are your details: \nUsername:", usr, "Password:", pwd)
         app.stop()
 
+
 from appJar import gui
 
-app=gui("Login Window")
+app = gui("Login Window")
 app.setBg("#4286f4")
 app.setSticky("sw")
 app.startLabelFrame("Login Details")
